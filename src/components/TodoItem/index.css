@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 90%;
+}
+.todo-item-heading {
+  color: #000000;
+  font-size: 20px;
+}
+.delete-button {
+  color: #ff0b37;
+  border: #ff0b37 1px;
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  height: 35px;
+  width: 80px;
+  flex-shrink: 0;
+}
